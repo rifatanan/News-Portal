@@ -4,9 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Link from "next/link";
 import UserDropDown from "@/components/Master/UserDropDown";
 
-
 function AppNavBar(props) {
-
 
     return (
         <>

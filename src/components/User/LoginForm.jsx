@@ -3,10 +3,7 @@ import {useState} from "react";
 import {ErrorToast, IsEmail, IsEmpty, SuccessToast} from "@/utility/FormHelper";
 import SubmitButton from "@/components/SubmitButton/SubmitButton";
 
-
-
 const LoginForm = () => {
-
 
     let [data, setData] = useState({email:"",password:""});
     const [submit, setSubmit] = useState(false);
